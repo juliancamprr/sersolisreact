@@ -1,18 +1,17 @@
 
 import { Link } from "react-router-dom";
 
-
+import './Navbar.css'
 
 function Navbar() {
 
-  console.log('Olá, primo')
   return (
     <main>
       <div>
         <header>
           <div className="navbar">
             <div className="logo">
-              <img src="" alt="" />
+              <a href="/">Sersolis</a>
             </div>
             <ul className="links">
              

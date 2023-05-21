@@ -9,9 +9,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route Component={Home} />
-          <Route component={About} />
-          <Route component={Services} />
+          <Route element={Home} />
+          <Route element={About} />
+          <Route element={Services} />
         </Routes>
       </BrowserRouter>
     </div>
