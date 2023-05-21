@@ -1,9 +1,7 @@
 
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import Home from '../../Pages/Home/Home';
-import About from '../../Pages/About/About';
-import Services from '../../Pages/Services/Services';
+
 
 function Navbar() {
 
@@ -17,15 +15,15 @@ function Navbar() {
               <img src="" alt="" />
             </div>
             <ul className="links">
-              <BrowserRouter>
-                <li></li>
-                <li></li>
-                <li></li>
-              </BrowserRouter>
+             
+                <li><Link to="/">Início</Link></li>
+                <li><Link to="/sobre">Sobre</Link></li>
+                <li><Link to="/servicos">Serviços</Link></li>
+              
             </ul>
             <a href="https://discord.gg/5RBBmsW8Cx" target="_blank" rel="noreferrer" class="action_btn">Servidor</a>
             <div className="toggle_btn">
-              Feito
+              
             </div>
           </div>
         </header>
