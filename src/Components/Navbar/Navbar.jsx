@@ -5,13 +5,15 @@ import './Navbar.css'
 
 function Navbar() {
 
+
   return (
+
     <main>
       <div>
         <header>
           <div className="navbar">
             <div className="logo">
-              <a href="/">Sersolis</a>
+              <Link to="/"><a href="/">Sersolis</a></Link>
             </div>
             <ul className="links">
              
@@ -20,7 +22,7 @@ function Navbar() {
                 <li><Link to="/servicos">Serviços</Link></li>
               
             </ul>
-            <a href="https://discord.gg/5RBBmsW8Cx" target="_blank" rel="noreferrer" class="action_btn">Servidor</a>
+            <a href="https://discord.gg/5RBBmsW8Cx" target="_blank" rel="noreferrer" className="action_btn">Servidor</a>
             <div className="toggle_btn">
               
             </div>
